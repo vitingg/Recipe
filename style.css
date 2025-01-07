@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 :root {
   font-family: "Alice", serif;
   line-height: 150%;
@@ -22,15 +27,43 @@ img {
   border-radius: 1rem;
 }
 
+main {
+  padding: 24px;
+}
+
+.description {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
 h1 {
 line-height: 140%;
 font-size: 40px;
+margin-bottom: 4px;
 }
 
 h2 {
+  margin-bottom: 12px;
   font-size: 24px;
 }
 
 h1, h2 {
   color: #291B1A;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+.especial {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.ingredients {
+  margin-bottom: 12px;
+}
+
+ul {
+  padding-left: 24px;
+  margin: 2px;
+
 }
